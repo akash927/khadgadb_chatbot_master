@@ -71,10 +71,12 @@ Install dependencies by
 Run “npm start” in the terminal to start the application.
 
 # Frontend Setup
-Go to Frontend Folder
+Create a new folder in a different place on your computer.
+Hit “npx create-react-app chat-cosey-front” and wait for a while.
+After the process completes, go to the chat-cosey-front folder and open it in Visual Studio Code.
+In the Integrated Terminal of VS Code, type “npm i react-router-dom sweetalert2 axios” to install the dependencies.
+Go to the backend folder, and open cmd in it.
+Type “npm i cors” there. Go to app.js and add “app.use(require(‘cors’)());” below the “app.use(express.urlencoded({extended: true});“.
+Hit npm start in the terminal to start the backend.
 
-Go to Frontend folder and open it in Visual Studio Code.
-In the Integrated Terminal of VS Code, install the dependencies.
-	“npm i react-router-dom sweetalert2 axios” 
-
-
+Thank you for showing interest in my repository!!!
